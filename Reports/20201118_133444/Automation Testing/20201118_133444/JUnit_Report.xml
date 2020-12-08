@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Automation Testing" time="151.984" tests="1" failures="0" errors="0">
+   <testsuite name="Automation Testing" tests="1" failures="0" errors="0" time="151.984" timestamp="2020-11-18 13:34:54" hostname="AldioProject - dikabrenda" id="Test Suites/Automation Testing">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi 5A (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\BMT\\Katalon Studio\\Pahamify\\Reports\\20201118_133444\\Automation Testing\\20201118_133444"/>
+         <property name="logFiles" value="C:\\Users\\BMT\\Katalon Studio\\Pahamify\\Reports\\20201118_133444\\Automation Testing\\20201118_133444\\appium.log, C:\\Users\\BMT\\Katalon Studio\\Pahamify\\Reports\\20201118_133444\\Automation Testing\\20201118_133444\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AldioProject - dikabrenda"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.8.1&quot;,&quot;revision&quot;:null}}}"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Redmi 5A"/>
+         <property name="hostAddress" value="192.168.100.12"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="364770677d05"/>
+         <property name="deviceName" value="Xiaomi Redmi 5A (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/TC_Pahamify" time="150.899" classname="Test Cases/TC_Pahamify" status="PASSED">
+         <system-out><![CDATA[2020-11-18 13:34:54 - [TEST_CASE][PASSED] - Test Cases/TC_Pahamify: Test Cases/TC_Pahamify
+
+2020-11-18 13:34:56 - [TEST_STEP][PASSED] - startApplication("C:\Users\BMT\Desktop\APK\QA_TEST.apk", true): Started app at: 'C:\Users\BMT\Desktop\APK\QA_TEST.apk'
+
+2020-11-18 13:34:56 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2020-11-18 13:34:56 - [MESSAGE][INFO] - User set preference: ['appWaitPackage', 'com.pahamify.android']
+
+2020-11-18 13:34:56 - [MESSAGE][INFO] - User set preference: ['deviceId', '364770677d05']
+
+2020-11-18 13:35:03 - [MESSAGE][INFO] - Appium server started on port 64,142
+
+2020-11-18 13:35:57 - [MESSAGE][PASSED] - Started app at: 'C:\Users\BMT\Desktop\APK\QA_TEST.apk'
+
+2020-11-18 13:35:57 - [TEST_STEP][PASSED] - tap(findTestObject("android.widget.TextView - Selanjutnya"), 0): Tapped on element 'Object Repository/android.widget.TextView - Selanjutnya'
+
+2020-11-18 13:35:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '50'
+
+2020-11-18 13:36:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Selanjutnya'
+
+2020-11-18 13:36:06 - [TEST_STEP][PASSED] - tap(findTestObject("android.widget.TextView - Selanjutnya"), 0): Tapped on element 'Object Repository/android.widget.TextView - Selanjutnya'
+
+2020-11-18 13:36:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '50'
+
+2020-11-18 13:36:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Selanjutnya'
+
+2020-11-18 13:36:07 - [TEST_STEP][PASSED] - tap(findTestObject("android.widget.TextView - Selanjutnya"), 0): Tapped on element 'Object Repository/android.widget.TextView - Selanjutnya'
+
+2020-11-18 13:36:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '50'
+
+2020-11-18 13:36:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Selanjutnya'
+
+2020-11-18 13:36:08 - [TEST_STEP][PASSED] - tap(findTestObject("android.widget.TextView - Mulai"), 0): Tapped on element 'Object Repository/android.widget.TextView - Mulai'
+
+2020-11-18 13:36:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '50'
+
+2020-11-18 13:36:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Mulai'
+
+2020-11-18 13:36:10 - [TEST_STEP][PASSED] - scrollToText("Login di sini"): Scrolling to text 'Login di sini' successfully
+
+2020-11-18 13:36:11 - [MESSAGE][PASSED] - Scrolling to text 'Login di sini' successfully
+
+2020-11-18 13:36:11 - [TEST_STEP][PASSED] - tap(findTestObject("Login di sini"), 0): Tapped on element 'Object Repository/Login di sini'
+
+2020-11-18 13:36:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '50'
+
+2020-11-18 13:36:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login di sini'
+
+2020-11-18 13:36:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/android.widget.EditText - email"), "qa_07@premium.com", OPTIONAL): Send keys 'qa_07@premium.com' on test object 'Object Repository/Login/android.widget.EditText - email' successfully.
+
+2020-11-18 13:36:14 - [MESSAGE][PASSED] - Send keys 'qa_07@premium.com' on test object 'Object Repository/Login/android.widget.EditText - email' successfully.
+
+2020-11-18 13:36:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/android.widget.EditText - kata sandi"), "YHXFCPCZ", OPTIONAL): Send keys 'YHXFCPCZ' on test object 'Object Repository/Login/android.widget.EditText - kata sandi' successfully.
+
+2020-11-18 13:36:15 - [MESSAGE][PASSED] - Send keys 'YHXFCPCZ' on test object 'Object Repository/Login/android.widget.EditText - kata sandi' successfully.
+
+2020-11-18 13:36:15 - [TEST_STEP][PASSED] - tap(findTestObject("Login/Button Masuk"), 0): Tapped on element 'Object Repository/Login/Button Masuk'
+
+2020-11-18 13:36:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '50'
+
+2020-11-18 13:36:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Button Masuk'
+
+2020-11-18 13:36:16 - [TEST_STEP][PASSED] - tap(findTestObject("Learning Center/Belajar"), 0): Tapped on element 'Object Repository/Learning Center/Belajar'
+
+2020-11-18 13:36:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '50'
+
+2020-11-18 13:36:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Learning Center/Belajar'
+
+2020-11-18 13:36:26 - [TEST_STEP][PASSED] - tap(findTestObject("Learning Center/Fisika"), 0): Tapped on element 'Object Repository/Learning Center/Fisika'
+
+2020-11-18 13:36:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '50'
+
+2020-11-18 13:36:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Learning Center/Fisika'
+
+2020-11-18 13:36:28 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2020-11-18 13:36:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-11-18 13:36:33 - [TEST_STEP][PASSED] - tap(findTestObject("Learning Center/Kesetimbangan"), 0): Tapped on element 'Object Repository/Learning Center/Kesetimbangan'
+
+2020-11-18 13:36:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '50'
+
+2020-11-18 13:36:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Learning Center/Kesetimbangan'
+
+2020-11-18 13:36:35 - [TEST_STEP][PASSED] - tap(findTestObject("Learning Center/Dinamika Benda"), 0): Tapped on element 'Object Repository/Learning Center/Dinamika Benda'
+
+2020-11-18 13:36:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '50'
+
+2020-11-18 13:36:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Learning Center/Dinamika Benda'
+
+2020-11-18 13:36:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Learning Center/Play Video"), 0): Element 'Object Repository/Learning Center/Play Video' is visible
+
+2020-11-18 13:36:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '50'
+
+2020-11-18 13:36:58 - [MESSAGE][PASSED] - Element 'Object Repository/Learning Center/Play Video' is visible
+
+2020-11-18 13:36:58 - [TEST_STEP][PASSED] - tap(findTestObject("Learning Center/Play Video"), 0): Tapped on element 'Object Repository/Learning Center/Play Video'
+
+2020-11-18 13:36:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '50'
+
+2020-11-18 13:37:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Learning Center/Play Video'
+
+2020-11-18 13:37:02 - [TEST_STEP][PASSED] - delay(20, OPTIONAL): Delayed 20 second(s)
+
+2020-11-18 13:37:22 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2020-11-18 13:37:22 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-11-18 13:37:25 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-18 13:34:54 - [TEST_SUITE][PASSED] - Automation Testing: Test Cases/TC_Pahamify]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

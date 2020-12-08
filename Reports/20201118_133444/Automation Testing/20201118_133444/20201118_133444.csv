@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Automation Testing,,,,2020-11-18 13:34:54,2020-11-18 13:37:25,2m - 31.538s,PASSED
+,,,,,,,
+Test Cases/TC_Pahamify,,,,2020-11-18 13:34:54,2020-11-18 13:37:25,2m - 30.899s,PASSED
+"startApplication(""C:\Users\BMT\Desktop\APK\QA_TEST.apk"", true)",,,,2020-11-18 13:34:56,2020-11-18 13:35:57,1m - 1.334s,PASSED
+"tap(findTestObject(""android.widget.TextView - Selanjutnya""), 0)",,,,2020-11-18 13:35:57,2020-11-18 13:36:06,9.226s,PASSED
+"tap(findTestObject(""android.widget.TextView - Selanjutnya""), 0)",,,,2020-11-18 13:36:06,2020-11-18 13:36:07,1.160s,PASSED
+"tap(findTestObject(""android.widget.TextView - Selanjutnya""), 0)",,,,2020-11-18 13:36:07,2020-11-18 13:36:08,1.021s,PASSED
+"tap(findTestObject(""android.widget.TextView - Mulai""), 0)",,,,2020-11-18 13:36:08,2020-11-18 13:36:10,1.167s,PASSED
+"scrollToText(""Login di sini"")",,,,2020-11-18 13:36:10,2020-11-18 13:36:11,1.685s,PASSED
+"tap(findTestObject(""Login di sini""), 0)",,,,2020-11-18 13:36:11,2020-11-18 13:36:12,0.549s,PASSED
+"sendKeys(findTestObject(""Login/android.widget.EditText - email""), ""qa_07@premium.com"", OPTIONAL)",,,,2020-11-18 13:36:12,2020-11-18 13:36:14,2.011s,PASSED
+"sendKeys(findTestObject(""Login/android.widget.EditText - kata sandi""), ""YHXFCPCZ"", OPTIONAL)",,,,2020-11-18 13:36:14,2020-11-18 13:36:15,1.221s,PASSED
+"tap(findTestObject(""Login/Button Masuk""), 0)",,,,2020-11-18 13:36:15,2020-11-18 13:36:16,1.156s,PASSED
+"tap(findTestObject(""Learning Center/Belajar""), 0)",,,,2020-11-18 13:36:16,2020-11-18 13:36:26,9.708s,PASSED
+"tap(findTestObject(""Learning Center/Fisika""), 0)",,,,2020-11-18 13:36:26,2020-11-18 13:36:28,2.231s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2020-11-18 13:36:28,2020-11-18 13:36:33,5.056s,PASSED
+"tap(findTestObject(""Learning Center/Kesetimbangan""), 0)",,,,2020-11-18 13:36:33,2020-11-18 13:36:35,1.229s,PASSED
+"tap(findTestObject(""Learning Center/Dinamika Benda""), 0)",,,,2020-11-18 13:36:35,2020-11-18 13:36:39,4.523s,PASSED
+"verifyElementVisible(findTestObject(""Learning Center/Play Video""), 0)",,,,2020-11-18 13:36:39,2020-11-18 13:36:58,19.380s,PASSED
+"tap(findTestObject(""Learning Center/Play Video""), 0)",,,,2020-11-18 13:36:58,2020-11-18 13:37:02,3.523s,PASSED
+"delay(20, OPTIONAL)",,,,2020-11-18 13:37:02,2020-11-18 13:37:22,20.020s,PASSED
+closeApplication(),,,,2020-11-18 13:37:22,2020-11-18 13:37:25,3.434s,PASSED
